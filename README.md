@@ -4,7 +4,7 @@ A graphQL like library to ease the pain of server side - database Query with pro
 
 ## Basic Usage
 
-####Sample 1
+#### Sample 1
 
 ```javascript
 GetOption<User> userOption = new GetOption<User>();
@@ -17,7 +17,7 @@ var users = await userRepository.GetEntities(userOption);
 
 
 
-####Sampl 2
+#### Sample 2
 ```javascript
 var userIds= new List<string>(){"abc","xyz","kcf","mmt","gte"};
 GetOption<User> userOption = new GetOption<User>();
