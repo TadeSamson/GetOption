@@ -30,4 +30,4 @@ userOption.SearchOption.Expression = SearchOption<User>.DeserializeSearchExpress
 List<User> users = await userRepository.GetEntitiesAsync(userOption);
 ```
 
-For information on the motivation and other uses such as for loading specific properties, for sorting, for pagination, see my developing [Medium post](https://tadesamson.medium.com/facebook-graphql-vs-getoption-f3c9e826723b?sk=3c7c9ae117052822d6b366e56f16cdfa).
+For information on the motivation, comparison with GraphQL and other uses such as for loading certain properties, for sorting, for pagination, see my developing [Medium post](https://tadesamson.medium.com/facebook-graphql-vs-getoption-f3c9e826723b?sk=3c7c9ae117052822d6b366e56f16cdfa).
