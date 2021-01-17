@@ -30,4 +30,4 @@ userOption.SearchOption.Expression = SearchOption<User>.DeserializeSearchExpress
 List<User> users = await userRepository.GetEntities(userOption);
 ```
 
-For more Information about the library for now, see my developing [Medium pst](https://tadesamson.medium.com/facebook-graphql-vs-getoption-f3c9e826723b?sk=3c7c9ae117052822d6b366e56f16cdfa).
+For more Information about the library for now, see my developing [Medium post](https://tadesamson.medium.com/facebook-graphql-vs-getoption-f3c9e826723b?sk=3c7c9ae117052822d6b366e56f16cdfa).
